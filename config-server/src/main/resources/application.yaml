@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/DungDev12/microservice_springboot_session07_excercies03.git
+          username: DungDev12
+          default-label: main
+server:
+  port: 8888
