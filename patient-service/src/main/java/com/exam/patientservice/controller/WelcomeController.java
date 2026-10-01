@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/welcome")
 public class WelcomeController {
 
-    @Value("${app.welcom}")
+    @Value("${app.welcome}")
     private String welcome;
 
     @GetMapping
